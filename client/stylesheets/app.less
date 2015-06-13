@@ -1,3 +1,26 @@
 body {
   padding-top: 70px;
 }
+
+.post {
+  padding: 1rem;
+  font-size: 2rem;
+  font-family: Georgia, serif;
+}
+.lie {
+  font-style: italic;
+  color: #666;
+  border-bottom: 1px solid #999;
+
+  &:before, &:after {
+    font-size: 2rem;
+  }
+
+  &:before {
+    content: '“';
+  }
+
+  &:after {
+    content: '”';
+  }
+}
